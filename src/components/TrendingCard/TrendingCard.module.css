@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    margin: 50px;
+}
+.card {
+    width: 250px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.cardBox {
+    margin: 0 70px 0 0;
+}
+.symbol{
+    color: blue;
+    margin: 10px 0;
+    font-family: serif;
+    font-size: 17px;
+}
+
+.overview {
+    font-size: 18px;
+    font-family: serif;
+    line-height: 35px;
+}
+
+.title {
+    font-family: serif;
+}

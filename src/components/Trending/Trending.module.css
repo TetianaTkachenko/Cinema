@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    margin: 50px;
+}
+.radioBox {
+    display: flex;
+    align-items: center;
+    margin: 20px 50px;
+    justify-content: flex-start;
+}
+.radio__title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #026eaf;
+    font-family: serif;
+    cursor: default;
+}
+label {
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    color: #000050;
+}
+.wrapCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+}

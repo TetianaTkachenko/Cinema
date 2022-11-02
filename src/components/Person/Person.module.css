@@ -1,0 +1,15 @@
+
+.radioBox {
+    display: flex;
+    align-items: center;
+    margin: 20px 50px;
+    justify-content: flex-start;
+}
+
+.radio__title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #026eaf;
+    font-family: serif;
+    cursor: default;
+}

@@ -1,0 +1,10 @@
+.filterBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 15px 35px;
+}
+
+.selector {
+    max-width: 350px;
+}

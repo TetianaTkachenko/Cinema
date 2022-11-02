@@ -1,0 +1,36 @@
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+button {
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgba(191, 193, 194, 0.281);
+    color: rgba(0, 0, 0, 0.747);
+    box-shadow: -1px 1px 12px 2px rgb(102 102 102 / 46%);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background: rgba(191, 193, 194, 0.089);
+    color: rgba(0, 0, 0, 0.233);
+    box-shadow: -1px 1px 12px 2px rgb(102 102 102 / 28%);
+
+}
+    
+.arrow {
+    width: 70px;
+}
+
+.activeBtn {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.699);;
+    background:rgb(18 70 112 / 98%);
+}

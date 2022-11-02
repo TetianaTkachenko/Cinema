@@ -1,0 +1,46 @@
+.flexBox {
+    display: flex;
+    background-color: rgba( 3,37,65, 1);
+    height: 100px;
+    width: 100%;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #e18ae3, #348ec4);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.header {
+    display: flex;
+    align-items: baseline;
+}
+
+.unselected {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #348ec4;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+.unselected:hover {
+    transform: scale(1.2);
+    transition: .2s;
+    color: #4ebdff;
+}
+    
+.selected {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 600;
+    color: #4ebdff;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
